@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<!--
+	Halcyonic by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Sindicación de contenidos en WEB</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<!-- Logo -->
+									<h1><a href="index.html" id="logo">RSS en WEB MarcosEloy</a></h1>
+
+								<!-- Nav -->
+									<nav id="nav">
+										<a href="index.html">Inicio</a>
+										<a href="twocolumn1.html">Suscripciones a RSS y la nuestra</a>
+										<a href="twocolumn2.html">Canal de Contenidos</a>
+										<a href="onecolumn.html">Conclusión</a>
+									</nav>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Content -->
+				<section id="content">
+					<div class="container">
+						<div class="row">
+							<div class="col-9 col-12-medium">
+
+								<!-- Main Content -->
+									<section>
+										<header>
+											<h2>Estructura de los canales de contenidos:</h2>
+											<h3>¿Cómo se crea?</h3>
+										</header>
+										<p>
+											Para  poder hacer una estructura un canal de contenido hay que crear un fichero
+											con extensión RSS basado en XML. El fichero se publicará en uno de los directorios
+											del sitio web que muestra.
+
+										</p>
+										<p>
+											Formado por estos elementos: <br>
+											-Declaración del XML y definición de la codificación que se haya pedido en el documento.<br>
+											-La definición de la codificación será preferentemente en UTF-8.<br>
+											-Un canal donde se determina la página web a la que hace referencia el fichero que
+											hayamos creado. Estará hecho por secciones donde cada una hace referencia a la web
+											que tiene uno de los servicios que se ofrecen. En los canales se pueden poner todas
+											las secciones que quieras, y generalmente eso es lo que hace que un canal de contenido
+											tenga un tamaño enorme si tiene muchos enlaces diferentes.
+
+										</p>
+										<header>
+											<h2>Sintaxis de canal de contenidos:</h2>
+										</header>
+										<p>
+											-La sintaxis del canal de contenidos, al ser basado en XML, tiene una estructura fácil
+											de comprender ya que es en un lenguaje de marcas; 
+											Un ejemplo de sería así;
+										</p>
+										<p>
+										<rss version="(Versión de rss)">
+										<channel>
+										<-title>(Título que quieras)<-/title>
+										<-link>(Link a tu RSS)<-/link>
+										<description>(Descripción corta y sencilla)</description>
+										<item>
+										<-title>(Un título que le quieras poner)<-/title>
+										<-link>(Un enlace a, por ejemplo, un html para tu página rss)<-/link>
+										<description>(La descripción de la página)</description>
+										</item>								
+										</channel>
+										</rss>
+										</p>
+										<p><b>
+											Como vemos, está formado primero por el tipo de documento, la especificación del RSS,
+											nuestro canal de RSS y los elementos fijos y los que varían.
+											Sólo nos quedaría enlazarlo a nuestro código HTML cuando tengamos la página XML lista.
+										</b></p>
+									</section>
+
+							</div>
+							<div class="col-3 col-12-medium">
+
+								<!-- Sidebar -->
+									<section>
+										<header>
+											<h2>Otras páginas;</h2>
+										</header>
+										<ul class="link-list">
+										<li><a href="index.html">Inicio</a></li>
+										<li><a href="twocolumn1.html">Suscripciones a RSS y la nuestra</li>
+										<li><a href="twocolumn2.html">Canal de Contenidos</a></li>
+										<li><a href="onecolumn.html">Conclusión</a></li>
+										</ul>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-8 col-12-medium">
+
+								<!-- Links -->
+
+								<!-- Blurb -->
+								
+			<!-- Copyright -->
+				<div id="copyright">
+					&copy; MarcosEloy. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
